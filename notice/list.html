@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<!--제목/ 목록/ 문장/ 표/ 폼/ div-->
+<body>
+    <a href="../index.html">홈</a>
+    <a href="list.html">공지사항목록</a>
+    <a href="../member/login.html">로그인</a>
+    <a href="../member/signup-agree.html">회원가입</a>
+    <h1>List Page</h1>
+
+    <h1>Fornt-End 개발자</h1>
+    <h2>header</h2>
+    <div>
+        <h3>메인메뉴</h3>
+        <ul> <!--unordered list-->
+            <li>학습가이드</li>
+            <li>강좌선택</li>
+            <li>AnswerIs</li>
+        </ul>
+        <ol> <!--ordered list-->
+            <li>학습가이드</li>
+            <li>강좌선택</li>
+            <li>AnswerIs</li>
+        </ol>
+        
+        <dl>
+            <dt>어묵탕</dt>
+            <dd>따듯한 국물..</dd>
+            <dt>떡볶이</dt>
+            <dd>맵고 쫄깃..</dd>
+        </dl>
+    </div>
+    <div>
+        <h3>강의검색폼</h3>
+        <form>
+            <fieldset>
+                <legend>검색입력</legend>
+                <label>과정검색</label>
+                <input type="text">
+                <input type="submit" value="검색">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h3>회원메뉴</h3>
+        <ul>
+            <li>HOME</li>
+            <li>로그인</li>
+            <li>회원가입</li>
+        </ul>
+    </div>
+    <div>
+        <h3>바로가기메뉴</h3>
+        <ul>
+            <li>마이페이지</li>
+            <li>고객센터</li>    
+        </ul>
+    </div>
+    
+    <h2>고객센터</h2>
+
+    <h3>고객센터메뉴</h3>
+    <ul>
+        공지사항
+        자주하는 질문
+        수강문의
+        이벤트
+    </ul>
+
+    <h3>협력업체</h3>
+    <ul>
+        노트펍스
+        나무랩연구소
+    </ul>
+
+    <h2>공지사항</h2>
+
+    <h3>경로</h3>
+    <ol>
+        <li>home</li>
+        <li>고객센터</li>
+        <li>공지사항</li>
+    </ol>
+
+    <h3>공지사항 검색폼</h3>
+    <form>
+        <fieldset>
+            <legend>검색입력</legend>
+            <label>검색분류</label>
+            <select>
+                <option value="title">제목</option>
+                <option value="author">작성자</option>
+            </select>
+            <label>검색어</label>
+            <input type="text">
+            <input type="submit" value="검색">
+        </fieldset>
+    </form>
+
+    <h3>공지사항목록</h3>
+    <table border="1">
+        <tr>
+            <td>번호</td>
+            <td>제목</td>
+            <td>작성자</td>
+            <td>작성일</td>
+            <td>조회수</td>
+        </tr>
+        <tr>
+            <td>1023</td>
+            <td>스프링 JSON 출력을 위한 라이브러리 설정</td>
+            <td>newlec</td>
+            <td>2020-11-25</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>1022</td>
+            <td>스프링 강좌 RestController 한글 깨짐 설정 코드</td>
+            <td>newlec</td>
+            <td>2020-11-29</td>
+            <td>241</td>
+        </tr>
+        <tr>
+            <td>1023</td>
+            <td>2021년 2월 뉴렉처 자바 풀스택 과정 모집에 대한 공지</td>
+            <td>newlec</td>
+            <td>2020-11-20</td>
+            <td>359</td>
+        </tr>
+    </table>
+
+    <h3>page 정보</h3>
+    <div>
+        1 / 2 pages
+    </div>
+
+    <h3>Pager</h3>
+    <div>
+        <div>이전</div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <div>다음</div>
+    </div>
+
+    <h2>회사정보</h2>
+
+    <h3>소유권자 정보</h3>
+    <dl>
+        <dt>주소:</dt>
+        <dd>서울특별시 마포구 토정로35길 11, 인우빌딩 5층 266호</dd>
+        <dt>관리자메일:</dt>
+        <dd>admin@newlecture.com</dd>
+        <dt>사업자 등록번호:</dt>
+        <dd>132-18-46763</dd>
+        <dt>통신 판매업:</dt>
+        <dd>신고제 2013-서울강동-0969 호</dd>
+        <dt>상호:</dt>
+        <dd>뉴렉처</dd>
+        <dt>대표:</dt>
+        <dd>박용우</dd>
+        <dt>전화번호:</dt>
+        <dd>070-4206-4084</dd>
+    </dl>
+    <h3>저작권자 정보</h3>
+    <div>
+        Copyright ⓒ newlecture.com 2012-2014 All Right Reserved. Contact admin@newlecture.com for more information
+    </div>
+</body>
+</html>
