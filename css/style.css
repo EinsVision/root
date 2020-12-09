@@ -1,0 +1,45 @@
+/* @import url("reset.css"); */
+
+*.content-box{
+    background-color: tomato;
+    height: inherit;
+    width: 960px;
+    margin-left: auto; /* block (content)를 가운데 위치하는 방법 (가운데 정렬하는 방법)*/
+    margin-right:auto; /* block (content)를 가운데 위치하는 방법 (가운데 정렬하는 방법)*/
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+#header{
+    background-color: darkcyan;   
+    /* height: 70px; */
+}
+
+#visual{
+    background-color: darkkhaki;   
+    /* height: 171px; */
+}
+
+#body{
+    background-color: darkorange;   
+    /* height: 300px; */
+}
+    #body > .content-box{
+        display:flex;
+    }
+
+    #aside{
+        width: 205px;
+        background-color: lawngreen;
+    }
+
+    #main{
+        width: 755px;
+        background-color: yellow;
+    }
+
+#footer{
+    background-color: darkgoldenrod;   
+    /* height: 100px; */
+}
