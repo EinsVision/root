@@ -8,9 +8,13 @@ while(true){
 
 	var input = prompt("곱셈문제: " + num1 + "*" + num2);
 	input = Number(input);
-	if(result === input)
-		console.log("맞습니다." + result + " " +input);
-	else
-		console.log("틀렸습니다." + result + " " +input);
-	
+    if(result === input)
+    {
+        alert("맞습니다." + result + " " +input);
+    }
+    else
+    {
+        alert("틀렸습니다." + result + " " +input);
+      
+	}
 }
