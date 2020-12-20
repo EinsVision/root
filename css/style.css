@@ -43,3 +43,8 @@
     background-color: darkgoldenrod;   
     /* height: 100px; */
 }
+
+p{
+    color:tomato;
+    font-size: 2rem;
+}
