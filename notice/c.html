@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <script>
+        function check(n){
+            var sum = 0;
+            for(var i = 0; i < 2000; i++){
+                sum += n;
+            }
+            alert(n);
+            console.log(n);
+            console.log(document.getElementById("songwriter"));
+            console.log(document.getElementsByClassName("lyric"));
+        }
+
+        check(1);
+    </script>
+</head>
+<body>
+    <script>check(2);</script>
+
+    <h1>애국가</h1>
+    <p id="songwriter">작곡: 안익태</p>
+    <p id="lyricist" style="color:red;">작사: 미상</p>
+    
+    <script>check(3);</script>
+
+    <h2>1절</h2>
+    <p class="lyric">
+        동해물과 백두산이 마르고<br>
+        닳도록 하느님이 보우하사.
+    </p>
+
+    <script>check(4);</script>
+    <h2>2절</h2>
+    <p class="lyric">
+        남산위의 저 소나무<br>
+        철갑을 두른 듯.
+    </p>
+
+    <script>check(5);</script>
+</body>
+</html>
