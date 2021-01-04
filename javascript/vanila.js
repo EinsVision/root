@@ -94,3 +94,13 @@ const title = document.getElementById('title');
 console.log(title);
 
 title.innerHTML = 'Hi from JS';
+
+// HTML을 DOM 객체로 바꿀 수 있다는 것을 확인했다.
+// Modifying the DOM with JS
+
+console.dir(title);
+title.style.color = 'red';
+
+const select = document.querySelector('#title');
+console.log(select);
+select.style.color= 'black';
