@@ -44,3 +44,16 @@ People.gender = 'Female';
 console.log(People);
 console.log(People.gender);
 console.log(People.favFood[0].fatty);
+
+// console 은 Object이다. 이것은 내장함수 (build-in function)이다.
+function sayHello(){
+    console.log('Hello');
+}
+
+sayHello();
+
+function sayHelloFriend(name){
+    console.log('Hello'+' '+name);
+}
+
+sayHelloFriend('Janny');
