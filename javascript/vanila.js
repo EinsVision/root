@@ -130,3 +130,15 @@ window.addEventListener('resize', handlerResize());
  만일, 위와 같이 handerResize()라고 선언하면 함수를 바로
  실행하는 것이 된다. 우리는 resize 될 때, 함수를 호출하고 싶다.
 */
+
+if(20>5 && 'test' === 'test'){
+    console.log('yes');
+} else{
+    console.log('no');
+}
+
+if(20<5 || 'test' === 'test'){
+    console.log('yes');
+} else{
+    console.log('no');
+}
