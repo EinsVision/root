@@ -104,3 +104,29 @@ title.style.color = 'red';
 const select = document.querySelector('#title');
 console.log(select);
 select.style.color= 'black';
+
+// event and event handler
+function handlerResize(){
+    console.log('I have been resized.');
+    title.style.color = 'lightpink';
+}
+
+function handlerClick(){
+    console.log('I have been clicked.');
+    title.style.color = 'tomato';
+}
+
+function handlerKeydown(){
+    console.log('I have been keydowned.');
+    title.style.color = 'darkmagenta';
+}
+
+window.addEventListener('resize', handlerResize);
+window.addEventListener('click', handlerClick);
+window.addEventListener('keydown', handlerKeydown);
+
+/*  
+window.addEventListener('resize', handlerResize());
+ 만일, 위와 같이 handerResize()라고 선언하면 함수를 바로
+ 실행하는 것이 된다. 우리는 resize 될 때, 함수를 호출하고 싶다.
+*/
