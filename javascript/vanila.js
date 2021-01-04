@@ -16,3 +16,31 @@ console.log(daysOfWeek);
 console.log(daysOfWeek[2]);
 console.log(daysOfWeek[5332]); // undefined
 
+// Object
+// label을 만들고 data를 넣어준다.
+const People={
+    name:'Peter',
+    age: 33,
+    gender:'Male',
+    isHandsome:true,
+    favMovies: ['ts','tech'],
+    favFood:[
+        {
+            name: 'pizza', 
+            fatty: true
+        },
+        {
+            name: 'Cheese burger', 
+            fatty: true
+        },
+    ]
+}
+
+console.log(People);
+console.log(People.gender);
+
+People.gender = 'Female';
+
+console.log(People);
+console.log(People.gender);
+console.log(People.favFood[0].fatty);
