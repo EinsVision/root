@@ -87,3 +87,10 @@ const calculator={
 console.log(calculator.plus(5,5));
 console.log(calculator.minus(5,5));
 console.log(calculator.mul(5,5));
+
+// JS DOM(Document Object Model) functions
+const title = document.getElementById('title');
+
+console.log(title);
+
+title.innerHTML = 'Hi from JS';
