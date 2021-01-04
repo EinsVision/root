@@ -9,3 +9,7 @@ h1{
 body #title{
     color: darkmagenta;
 }
+
+body .para{
+    color: darkturquoise;
+}

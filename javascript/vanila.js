@@ -152,3 +152,26 @@ if(20<5 || 'test' === 'test'){
 } else{
     console.log('no');
 }
+
+const namedClass = document.querySelector('.para');
+const CLICKED_CLASS = 'clicked';
+const ORI_CLASS = 'para';
+
+function handlerClickClass(){
+    const currentClass = namedClass.className;
+    console.log('hello world');
+    // namedClass.style.color = 'blue';
+    if(currentClass !== CLICKED_CLASS){
+        namedClass.className = CLICKED_CLASS;
+        namedClass.style.color = 'blue';
+    } else{
+        namedClass.className = ORI_CLASS;
+        namedClass.style.color = 'green';
+    }
+}
+
+function init(){
+    window.addEventListener('mouseup', handlerClickClass);
+}
+
+init();
