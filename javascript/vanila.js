@@ -9,3 +9,10 @@ const what = "Jungchangdae"; // string
 const bin = true;            // boolean
 const num = 77;              // number
 const floa = 0.1;            // float 
+
+// Array
+const daysOfWeek = ['Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat'];
+console.log(daysOfWeek);
+console.log(daysOfWeek[2]);
+console.log(daysOfWeek[5332]); // undefined
+
