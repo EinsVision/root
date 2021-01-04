@@ -57,3 +57,33 @@ function sayHelloFriend(name){
 }
 
 sayHelloFriend('Janny');
+
+// more function fun
+function sayHelloFriend2(name, age){
+    console.log(`Hello ${name} you are ${age}.`); //배틱
+}
+
+sayHelloFriend2('Jonas', 19);
+
+function sayHelloFriend3(name, age){
+    return `Hello ${name}, you are ${age}. Hello again!`;
+}
+
+const greeting = sayHelloFriend3('Peter',30);
+console.log(greeting);
+
+const calculator={
+    plus: function(num1, num2){
+        return num1+num2;
+    },
+    minus: function(num1, num2){
+        return num1-num2;
+    },
+    mul: function(num1, num2){
+        return num1*num2;
+    }
+}
+
+console.log(calculator.plus(5,5));
+console.log(calculator.minus(5,5));
+console.log(calculator.mul(5,5));
