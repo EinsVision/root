@@ -111,9 +111,19 @@ function handlerResize(){
     title.style.color = 'lightpink';
 }
 
+const BASE_COLOR = 'black';
+const OTHER_COLOR = '#ff6347';
+
 function handlerClick(){
-    console.log('I have been clicked.');
-    title.style.color = 'tomato';
+    console.log('I have been clicked.' + title.style.color);
+    const currentColor = title.style.color;
+    if(currentColor === BASE_COLOR){
+        console.log('color is black');
+        title.style.color = OTHER_COLOR;
+    } else{
+        console.log('else color');
+        title.style.color = BASE_COLOR;
+    }
 }
 
 function handlerKeydown(){
