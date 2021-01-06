@@ -1,0 +1,53 @@
+body{
+    background-color: honeydew;
+}
+
+#wrap{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#header{
+    width: 1000px; 
+    height: 100px;
+    background-color: #4caf50;
+    line-height: 100px;
+}
+
+#nav{
+    width: 1000px; 
+    height: 100px;
+    background-color: #2e7d32;
+    line-height: 100px;
+}
+
+#side{
+    width: 300px; 
+    height: 700px;
+    background-color: #388e3c;
+    float:left; 
+    /* float:left; 쓰면 heigth값이 없는 것과 같이 인식이 된다. */
+    line-height: 700px;
+}
+
+#contents{
+    width: 700px; 
+    height: 700px;
+    background-color: #43a047;
+    float:left;
+    /* float:left; 쓰면 heigth값이 없는 것과 같이 인식이 된다. */
+    line-height: 700px;
+}
+
+#footer{
+    width: 1000px; 
+    height: 100px;
+    background-color: #66bb6a;
+    float:left;
+    line-height: 100px; 
+    /* line-height: 100px; 글씨를 가운데 오도록 만든다. */
+}
