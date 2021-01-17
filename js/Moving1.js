@@ -34,7 +34,8 @@ class App{
         this.canvas.height = this.stageHeight * this.pixelRatio;
         this.ctx.scale(this.pixelRatio, this.pixelRatio);
 
-        this.ctx.globalCompositeOperation = 'saturation';
+        // this.ctx.globalCompositeOperation = 'saturation';
+        this.ctx.globalCompositeOperation = 'destination-over';
 
         this.createParticles();
     }

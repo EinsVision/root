@@ -1,0 +1,48 @@
+
+#wraper{
+    width: 1000px;
+    height: 1000px;
+    background-color: dodgerblue;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    background-color: forestgreen;
+    line-height: 100px;
+}
+
+nav{
+    width: 1000px;
+    height: 100px;
+    background-color: darkgreen;
+    line-height: 100px;
+}
+
+aside{
+    width: 300px;
+    height: 700px;
+    background-color: darkolivegreen;
+    line-height: 700px;
+    float: left;
+}
+
+section{
+    width: 700px;
+    height: 700px;
+    background-color: darksalmon;
+    display: inline-block;
+    line-height: 700px;
+}
+
+footer{
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    background-color:darkslateblue;
+    float:left;
+}
