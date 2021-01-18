@@ -1,0 +1,1 @@
+{"version":3,"sources":["SASS\\main.scss"],"names":[],"mappings":"AAAA,AAEI,UAFM,CAEN,KAAK,CAAA;EACD,KAAK,EAAE,KAAS;EAChB,MAAM,EAHH,KAAK;EAIR,UAAU,EAAE,MAAM,GACrB","file":"main.982a1ae0.css","sourceRoot":"..","sourcesContent":[".container{\r\n    $size: 100px;\r\n    .item{\r\n        width: $size * 3;\r\n        height: $size;\r\n        background: tomato;\r\n    }\r\n}"]}
